@@ -38,16 +38,6 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 <head>
     <link rel="stylesheet" href="style.css">
     <title>Login</title>
-    <style>
-        body { font-family: Arial; background: #f2f2f2; }
-        .login-box {
-            width: 300px; margin: 100px auto; background: #fff; padding: 20px;
-            border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.1);
-        }
-        input { width: 90%; padding: 10px; margin: 5px; display: flex ;align-self: center;}
-        button { width: 100%; padding: 10px; margin-top: 50px; background: #007BFF; color: white; border: none; border-radius: 5px; }
-        .error { color: red; }
-    </style>
 </head>
 <body>
     <div class="login-box">
