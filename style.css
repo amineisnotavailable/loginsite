@@ -7,31 +7,57 @@ body
 {
     margin: 100px auto;
     width: 300px;
+    height: 250px;
     background: #363636;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+    color: #22ca1c;
 }
 
 input
 {
-    width: 90%;
+    width: 92%;
     padding: 10px;
-    margin: 5px;
-    display: flex ;
-    align-self: center;
+    margin-top: 20px;
+    display: flex;
+    text-align: center;
+    color: white;
+    font-weight: 400;
+    background-color: #252525;
+    border-color: #22ca1c;
+    border-radius: 20px;
+    border-style: solid;
+
+    transition-duration: 0.6s;
 }
 
 
 button
 { 
+    position: static;
     width: 100%;
     padding: 10px;
     margin-top: 50px;
     background: #22ca1c;
-    color: white;
+    color: rgb(14, 14, 14);
+    font-weight: 900;
     border: none;
     border-radius: 5px;
+    transition: 0.8s;
+}
+
+button:hover
+{
+    padding: 12px;
+}
+
+input:focus
+{
+    box-shadow: #22ca1c 0px 0px 10px;
+    border-color: #22ca1c;
+    outline: none;
 }
 
 .error
