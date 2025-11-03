@@ -37,11 +37,11 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 <html>
 <head>
     <link rel="stylesheet" href="style.css">
-    <title>Login</title>
+    <title>Registeration</title>
 </head>
 <body>
     <div class="login-box">
-        <h2>Kompany</h2>
+        <h2>Company</h2>
         <?php if (!empty($error)) echo "<p class='error'>$error</p>"; ?>
         <form method="POST">
             <input type="text" name="username" placeholder="Username" required>
